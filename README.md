@@ -12,7 +12,7 @@ This repository contains the Node.js backend for the MiniMuse music application.
 >
 > After deploying the backend, the API calls in the Flutter frontend were updated to point to the Render deployment, so all requests go directly to the live backend.
 
-- **Live URL:** `[Your Render App URL will go here, e.g., https://minimuse-backend-xyz.onrender.com]`
+- **Live URL:** `[Your Render App URL will go here, e.g., https://minimuse-backend.onrender.com]`
 
 **Important Note:** This backend is hosted on Render's free tier, which uses an **ephemeral file system**. This means the SQLite database is automatically reset and re-seeded with sample data on each deployment and after periods of inactivity. Any new data created through the app (such as new user profiles or uploaded tracks) will not be persisted long-term on the deployed version. This was a deliberate choice to provide a consistent, fresh dataset for evaluation purposes within the constraints of free hosting.
 
